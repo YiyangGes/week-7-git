@@ -2,6 +2,7 @@ const dropdown = document.getElementById("country-select");
 const loadingImg = document.getElementById('loading-img');
 const tableBody = document.getElementById('table');
 
+// change
 async function fillTable(data, coord, tempAvg, rainAvg) {
     let fieldsAll = document.querySelectorAll('.right');
     fieldsAll.forEach(element => {
